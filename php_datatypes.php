@@ -18,9 +18,9 @@
     echo "<br>";
     //String
 
-    $var=89;
+    $var=87;
     echo"2. Integer -> ";
-    echo"The 89 is : ";
+    echo"The 87 is : ";
     echo var_dump($var);
     echo "<br>";
     //Integer
