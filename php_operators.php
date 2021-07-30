@@ -7,16 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Program </title>
 </head>
-        <h1>Operators on PHP</h1>
+<style>
+    .container_head {
+      max-width: 50%;
+      background-color: rgb(108, 102, 189);
+      border-radius: 10pt;
+      padding: 02%;
+      margin-top: 5pt;
+      margin: auto;
+    }
+
+    .container_body {
+      max-width: 50%;
+      background-color: rgb(255, 255, 255);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      padding: 02%;
+      margin-top: 5pt;
+      margin: auto;
+    }
+
+    .heading {
+      font-family: "Times New Roman", Times, serif;
+      font-style: italic;
+      text-align: center;
+      color: whitesmoke;
+    }
+  </style>
+        <h1></h1>
 <body>
+        <div class="container_head">
+            <h1 class="heading">Operators in PHP</h1>
+        </div>
+    <div class="container_body">
 
     <?php
     
-    echo nl2br("A. Arithmetic operators in PHP*");
+    echo nl2br("<h3>A. Arithmetic operators in PHP*</h3>");
     $a=10;
     $b=5;
     $var_add=$a+$b;
-    echo nl2br("\n\n1. Addition of 10 and 5 is ");
+    echo nl2br("1. Addition of 10 and 5 is ");
     echo $var_add;
 
     $var_sub=$a-$b;
@@ -40,10 +71,7 @@
     echo $var_expo;
 
 
-    echo nl2br("\n\nB. Assignment operators in PHP*");
-
-    echo"<br>";
-    echo"<br>";
+    echo nl2br("\n\n<h3>B. Assignment operators in PHP*</h3>");
 
     $x = 20;  
     $x += 100;
@@ -69,11 +97,7 @@
     $x **= 10;
     echo"6. Exponentiation with = $x";
 
-    echo nl2br("\n\nC. Comparison Operators in PHP*");
-
-    echo"<br>";
-    echo"<br>";
-
+    echo nl2br("\n\n<h3>C. Comparison Operators in PHP*</h3>");
 
     echo("1. The Value 1 == 4 is ");
     echo var_dump(1==4);
@@ -125,7 +149,6 @@
     echo var_dump($x <=> $y); // returns 0 because values are equal
     echo "<br>";
     
-    
     $x = 15;  
     $y = 10;
 
@@ -133,10 +156,7 @@
     echo var_dump($x <=> $y); // returns +1 because $x is greater than $y
     echo "<br>";
     
-    echo nl2br("\nD. Increment / Decrement Operators in PHP*");
-
-    echo"<br>";
-    echo"<br>";
+    echo nl2br("\n<h3>D. Increment / Decrement Operators in PHP*</h3>");
 
     $x = 15;  
     echo"1. Pre Incerment ++varible ";
@@ -161,10 +181,7 @@
     echo", After Decerment $x";
    
 
-    echo nl2br("\n\nE. Logical Operators in PHP*");
-
-    echo"<br>";
-    echo"<br>";
+    echo nl2br("\n\n<h3>E. Logical Operators in PHP*</h3>");
 
     $var_a=(true and true);
     echo"1. true and true = ";
@@ -196,8 +213,9 @@
     echo var_dump($var_a);
     echo"<br>";
 
-
     ?> 
+
+    </div>
 
 </body>
 
